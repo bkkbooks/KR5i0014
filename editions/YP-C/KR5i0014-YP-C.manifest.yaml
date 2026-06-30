@@ -1,0 +1,37 @@
+canonical_identifier: bkk:krp/KR5i0014/YP-C/v1
+canonical_location: https://kanripo.org/bkk/KR5i0014/YP-C/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上感應篇集注
+  date: '2015-08-29 17:48:36.636494'
+  source:
+    repository: kanripo
+    path: KR5i0014
+  image_base_urls:
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+  edition:
+    short: YP-C
+    label: 【原版道藏輯要】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 1, filename: KR5i0014_001-YP-C.yaml, hash: 'sha256:0a0e658a506936caf046be543425f60faf046f8450a82b5070c06a4a8128970f'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5i0014_001-YP-C.markers.yaml, hash: 'sha256:d8ce22f903e6dcd0427494e2566fdddb95a2db3041269a32689627e39534ae02'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: YP-C_KR5i0014_06weiji-04-0064a
+    span:
+    - body
+    - 0
+    - 52836
+  label: juan 001
+  type: section
+  level: 1
+hash: sha256:d39516eb0424a238a20e44cb5a6e39c0fb4185bfd18c22dc8f1f9ed03dee5381
